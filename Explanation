@@ -1,0 +1,29 @@
+Im trying to predict the winning chances of Australian Cricket team provided Steven Smith is playing.
+
+
+Australia has won 80 matches among the last 100 matches they've played.
+Steve smith has played 80 matches all together among which Australia has won 70 matches.
+Steve smith has not played 20 matches among which Australia has won 5 matches.
+
+The winning % of Australia is -- 
+P(Aus winning) = 80/100= 0.8  or 80% 
+So the next time Australia is playing a Cricket match and you've placed a bet on Australian team, you know you would be 80% right
+
+Now lets get into the granularity of the statistics
+
+The winning % of Australia provided Steve Smith is in the team
+P(Aus win/Steve smith) = 70/80 = 0.875 = 87.5 % 
+Geez! 87.5 %, thats quite a digit, Steve smith is pretty valuable for the team!
+
+So the next time Australia is playing a Cricket match with Steve Smith in the team and you've placed a bet on Australian team, 
+you know you would be 87.5% right.
+
+This way we can get the insights of the data by also filtering in which country the match is being played + which venue is 
+chosen for the play.  Then we check the history Australian team has had in that country, and on that venue, given a certain player is 
+playing and then you place your bets.
+
+
+On the flipsyde lets check the probabilities of the team stats without Steve smith
+
+P(Aus win/no steve smith) = 5/20 = 0.25 = 25% 
+So the probability of Australia winning given there is no Steve smith is just 25% , in such case you place your bets on the opposite team
